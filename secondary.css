@@ -1,0 +1,115 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: black;
+    color: silver;
+}
+
+/* Header */
+header {
+    background: #6a0dad; /* Purple */
+    color: silver;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav a {
+    color: silver;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    background: #1a1a1a; /* Darker black for contrast */
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px #6a0dad; /* Purple glow */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #6a0dad;
+    border-bottom: 2px solid #6a0dad;
+    padding-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: silver;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Links */
+a {
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+/* Logo Styling */
+.server-logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+}
+/* Rules Page Styling */
+.rules-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1a1a1a;
+    color: silver;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.rules-container h2, .rules-container h3 {
+    color: #6a0dad;
+    margin-bottom: 10px;
+}
+
+.rules-container p {
+    margin-bottom: 20px;
+}
+
+.rules-container hr {
+    border: 0;
+    height: 1px;
+    background: #6a0dad;
+    margin: 20px 0;
+}
+
+.rules-container ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-left: 0;
+}
+
+.rules-container ol li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+

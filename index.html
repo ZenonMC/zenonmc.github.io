@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenon MC - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Zenon MC Logo" class="server-logo">
+        <h1>Zenon MC</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="rules.html">Rules</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Zenon MC</h2>
+        <p>Experience the ultimate Minecraft Survival adventure with our vibrant community.</p>
+        <a href="about.html" class="button">Learn More</a>
+    </section>
+
+    <section class="auth-section">
+        <h2>Login or Register</h2>
+        <form id="auth-form">
+            <div class="form-group">
+                <label for="username">Username (Your Minecraft username for Whitelisting)</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="captcha-group">
+                <label for="captcha">What is 3 + 4?</label>
+                <input type="text" id="captcha" name="captcha" placeholder="Enter your answer" required>
+            </div>
+            <button type="submit" class="button">Login/Register</button>
+        </form>
+        <p id="auth-message" class="message"></p>
+    </section>
+
+    <footer>
+        <p>© 2024 Zenon MC. All rights reserved.</p>
+    </footer>
+
+    <script src="auth.js"></script>
+</body>
+</html>
